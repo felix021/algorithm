@@ -2,6 +2,7 @@
 def solution(x, y):
     z = x + y - 1
 
+    # actually it could be simplied to `p = 1 + z * (z - 1) / 2`
     p = 1
     for i in range(2, z + 1):
         p += i - 1
